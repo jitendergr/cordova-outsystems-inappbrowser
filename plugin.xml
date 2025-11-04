@@ -33,7 +33,7 @@
             <feature name="OSInAppBrowser">
                 <param name="ios-package" value="OSInAppBrowser" />
             </feature>
-            <preference name="SwiftVersion" value="5" />
+            <preference name="SwiftVersion" value="5.9" />
         </config-file>
 
         <source-file src="src/ios/OSInAppBrowser.swift" />
