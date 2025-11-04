@@ -191,7 +191,7 @@ private extension OSInAppBrowser {
         } else {
             pluginResult = .init(status: .ok)
         }
-        pluginResult.keepCallback = true
+        pluginResult.setKeepCallbackAs(true)
         self.commandDelegate.send(pluginResult, callbackId: callbackId)
     }
     
